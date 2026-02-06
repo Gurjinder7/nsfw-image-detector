@@ -1,0 +1,27 @@
+{
+  "name": "nsfw-image-detector",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Method to detect NSFW image using HuggingFace model for node packages",
+  "main": "src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurjinder7/nsfw-image-detector.git"
+  },
+  "keywords": [
+    "nsfw"
+  ],
+  "author": "Gurjinder Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gurjinder7/nsfw-image-detector/issues"
+  },
+  "homepage": "https://github.com/Gurjinder7/nsfw-image-detector#readme",
+  "dependencies": {
+    "@huggingface/transformers": "^3.8.1"
+  },
+  "type": "module"
+}
